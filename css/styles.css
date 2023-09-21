@@ -182,10 +182,6 @@ nav li a:hover {
    justify-content: space-between;
 }
 
-.text-container li {
-    padding-right: 174px;
-    margin-right: -134px;
-}
 
 .text-container li:last-child {
     padding-right: 0;
@@ -251,16 +247,29 @@ h2 {
 }
 
 h5 {
-    /* to be defined */
+   font-family: var(--link-text);
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 16.41px;
 }
 
-.img-container  {
-    list-style: none;
+.item-services   {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    padding: 0;
+    align-items: center;
     justify-content: space-between;
+    height: 386px;
+}
+    
+.employe-container {
+    display: flex;
+    justify-content: space-around;
+    height: 648px;
+    background-color: #F5F4FA;
+    align-items: center;
+}
+.employe-container li {
+    
 }
 
 
