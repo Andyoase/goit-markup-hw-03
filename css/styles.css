@@ -299,7 +299,12 @@ h5 {
 }
 
 .employe-container li {
-  border-radius: 0px,0px,4px,4px ;
+  border: 1px solid rgba(48, 47, 47, 0.226);
+  border-radius: 0px  0px 4px 4px;
+}
+
+.employe-container li {
+    box-shadow: 2px;
 }
 
 .employe-container h3 {
