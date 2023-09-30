@@ -527,6 +527,7 @@ a {
 
 .filters button:hover {
     color: var(--link-background-color);
+    border-radius: 4px;
 }
 
 
