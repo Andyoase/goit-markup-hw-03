@@ -216,7 +216,7 @@ nav li a:hover {
     color: #ffffff;
 }
 
-.button {
+.button-service {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -237,8 +237,12 @@ nav li a:hover {
     border: none;
 }
 
-.button:hover {
+.button-service:hover {
     background-color: rgba(24, 140, 232, 1);
+}
+
+.button:hover {
+   background-color: rgba(24, 140, 232, 1);
 }
 
 .group-container{
